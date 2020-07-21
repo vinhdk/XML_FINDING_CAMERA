@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT accounts (account)*>
+<!ELEMENT account EMPTY>
+<!ATTLIST account
+    username CDATA #IMPLIED
+    fullname CDATA #IMPLIED
+    phone CDATA #IMPLIED
+    email CDATA #IMPLIED
+    address CDATA #IMPLIED
+    roleId CDATA #IMPLIED
+  >

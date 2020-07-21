@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT roles (role)*>
+<!ELEMENT role EMPTY>
+<!ATTLIST role
+    id CDATA #IMPLIED
+    name CDATA #IMPLIED
+    canActiveAccount CDATA #IMPLIED
+    canActiveRole CDATA #IMPLIED
+    canActiveBrand CDATA #IMPLIED
+    canActiveCategory CDATA #IMPLIED
+    canActiveCapacity CDATA #IMPLIED
+    canActiveCamera CDATA #IMPLIED
+    canActiveCard CDATA #IMPLIED
+    canActiveCrawler CDATA #IMPLIED
+  >

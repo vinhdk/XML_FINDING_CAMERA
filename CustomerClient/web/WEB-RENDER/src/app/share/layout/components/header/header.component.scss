@@ -1,0 +1,22 @@
+.header {
+    height: 10vh;
+}
+
+.menu .menu-item {
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    margin: auto
+}
+.menu .menu-item .item {
+    -webkit-box-shadow: inset -1px 0px 5px 0px rgba(145,130,145,1);
+    -moz-box-shadow: inset -1px 0px 5px 0px rgba(145,130,145,1);
+    box-shadow: inset -1px 0px 5px 0px rgba(145,130,145,1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu .menu-item .item.select {
+    opacity: 0.6;
+}
+.menu .menu-item .item:hover {
+    opacity: 0.5;
+}

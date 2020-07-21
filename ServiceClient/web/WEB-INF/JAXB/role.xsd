@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xsd:schema version="1.0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://xml.netbeans.org/schema/role"
+            targetNamespace="http://xml.netbeans.org/schema/role"
+            elementFormDefault="qualified">
+    <xsd:element name="roleJAXB">
+        <xsd:complexType>
+            <xsd:attribute name="id" type="xsd:string" />
+            <xsd:attribute name="name" type="xsd:string" />
+            <xsd:attribute name="canActiveAccount" type="xsd:boolean" />
+            <xsd:attribute name="canActiveRole" type="xsd:boolean" />
+            <xsd:attribute name="canActiveBrand" type="xsd:boolean" />
+            <xsd:attribute name="canActiveCategory" type="xsd:boolean" />
+            <xsd:attribute name="canActiveCapacity" type="xsd:boolean" />
+            <xsd:attribute name="canActiveCamera" type="xsd:boolean" />
+            <xsd:attribute name="canActiveCard" type="xsd:boolean" />
+            <xsd:attribute name="canActiveCrawler" type="xsd:boolean" />
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT cards (card)*>
+<!ELEMENT card EMPTY>
+<!ATTLIST card
+    id CDATA #IMPLIED
+    name CDATA #IMPLIED
+    price CDATA #IMPLIED
+    image CDATA #IMPLIED
+    url CDATA #IMPLIED
+    capacityId CDATA #IMPLIED
+  >

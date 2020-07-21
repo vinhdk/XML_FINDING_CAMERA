@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT cameras (camera)*>
+<!ELEMENT camera EMPTY>
+<!ATTLIST camera
+    id CDATA #IMPLIED
+    name CDATA #IMPLIED
+    price CDATA #IMPLIED
+    megapixel CDATA #IMPLIED
+    image CDATA #IMPLIED
+    url CDATA #IMPLIED
+    brandId CDATA #IMPLIED
+    categoryId CDATA #IMPLIED
+  >

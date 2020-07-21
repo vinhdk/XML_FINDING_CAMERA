@@ -1,0 +1,27 @@
+.menu .menu-item {
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    margin: auto
+}
+.brand { 
+    color: #24b7b7;
+    font-family: 'Rouge Script',
+        cursive; font-size: 60px;
+    font-weight: normal;
+    line-height: 30px;
+    text-shadow: 0 0 3px white, 0 0 5px gray; 
+}
+.menu .menu-item .item {
+    -webkit-box-shadow: inset -1px 0px 5px 0px rgba(145,130,145,1);
+    -moz-box-shadow: inset -1px 0px 5px 0px rgba(145,130,145,1);
+    box-shadow: inset -1px 0px 5px 0px rgba(145,130,145,1);
+    border-radius: 5px;
+    padding: 5px;
+}
+.menu .menu-item .item.select {
+    opacity: 0.6;
+}
+.menu .menu-item .item:hover {
+    opacity: 0.5;
+}

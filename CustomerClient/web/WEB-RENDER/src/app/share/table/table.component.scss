@@ -1,0 +1,36 @@
+.table {
+    background-color: #f6f9fa;
+    border: 1px solid lightgrey;
+}
+.table-row {
+    display: grid;
+    grid-template-columns: 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5% 7.5%;
+    grid-gap: 15px;
+    margin-bottom: 15px;
+}
+.name span{
+    color: #292929;
+    font-size: 14px;
+    font-family: "Lato", "Arial", "Helvetica,", sans-serif;
+    font-weight: bold;
+}
+.price span{
+    color: #292929;
+    font-size: 18px;
+    font-family: "Lato", "Arial", "Helvetica,", sans-serif;
+    font-weight: bold;
+}
+.item-footer {
+    border-top: 1px #a2a2a2 solid;
+    vertical-align: middle;
+    position: relative;
+}
+.item-footer img {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
